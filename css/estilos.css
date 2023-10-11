@@ -1,0 +1,669 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(20, 12, 1);
+    line-height: normal;
+}
+
+p{
+    color: white;
+}
+
+header {
+    padding: 20px 10px 20px 10px;
+    background-color: rgb(26, 24, 44);
+    border: 10px solid black;
+}
+
+nav {
+    display: block;
+}
+
+ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+li {
+    display: inline-block;
+    color: white;
+}
+
+
+.retrato {
+    margin: 0%;
+    border: 10px; 
+    padding-left: 40%;
+    padding-right: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.alinear{
+    text-align: center;
+}
+
+.card-links-header a {
+    text-decoration:none;
+    font-size:30px;
+    padding:10px;
+    background-color: gray;
+    color: azure;
+}
+
+h1 {
+    color: antiquewhite;
+    display: block;
+    font-size: 4em;
+    }
+
+h2{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.primerparrafo {
+        color: aliceblue;
+        padding-left: 300px;
+        padding-right: 300px;
+        padding-bottom: 0px;
+        border-top-width: 50px;
+}
+
+#carouselExampleCaptions{
+    margin: auto;
+    width: 500px;
+}
+
+.carousel-caption{
+    bottom: 10px;
+    padding-bottom: 0%;
+}
+
+.carousel-caption h5 {
+    color: #140c01;
+    font-size: 30px;
+}
+
+.carousel-caption p {
+    color: #140c01;
+    font-size: 25px;
+}
+
+.apariencia-barra-de-busqueda input{
+    padding: 9px 500px 9px 32px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 30px;
+    color: #444;
+    border: 3px solid #a50559;
+}
+
+.barra-de-busqueda{
+    display: flex;
+}
+
+.listas-de-seleccion{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+}
+
+.containers{
+    max-width: 90%;
+}
+
+.tipo-de-obra{
+    margin-left: 120px;
+}
+
+.tipo-de-obra select{
+    font-size: 18px;
+    padding: 5px 20px 5px 5px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.sub-generos select{
+    font-size: 18px;
+    padding: 5px 20px 5px 5px;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* css del html "autores" */
+
+.primera-seccion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 8%;
+}
+
+.primera-seccion h1{
+    font-size: 30px;
+}
+
+.grid-seccion-autores{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+    align-content: space-around;
+    justify-items: center;
+}
+
+.seccion-del-autor{
+    border: 2px solid #ffffff;
+    margin-top: 50px;
+    height: 435px;
+    width: 634px;
+}
+
+.card-link{
+    padding: 0%;
+    margin: 0%;
+    text-decoration:none;
+}
+
+.nombre-titular{
+    color: white;
+    text-align: center ;
+    margin: 0px;
+    border: 2px solid  #ffffff ;
+    background: rgb(27,38,105);
+    background: radial-gradient(circle, rgba(27,38,105,1) 0%, rgba(0,29,36,1) 64%);
+    font-size: 20px;
+    position: relative;
+}
+
+.texto-introductorio-del-autor{
+    font-size: small;
+    margin-top: 10px;
+}
+
+.texto-oda{
+    margin: 0%;
+    text-align: justify;
+    margin-right: 7px;
+    height: 105px;
+    overflow: hidden;
+}
+
+.nombre-de-la-obra{
+    margin: 18px 0px 10px 7px;
+    height: 18px;
+    overflow: hidden;
+}
+
+.argumento-de-la-obra{
+    font-size: small;
+    margin: 10px 7px 0px 7px;
+    text-align: justify;
+    height: 240px;
+    width: 189px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.argumento-de-la-obra:hover{
+    height: 300px;
+    width: 260px;
+    overflow: visible;
+}
+
+.contenedor-texto-de-obra{
+    background-color: rgb(18, 4, 20);
+}
+
+.contenedor-texto-de-obra:hover{
+    height: auto;
+    width: auto;
+    overflow: visible;
+    position: relative;
+    transition: 0.3s ease;
+}
+
+.card-container{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    width: 630px;
+    background-color: rgb(18, 4, 20);
+}
+
+.card-img-autor{
+    width: 243px;
+    height: 330px;
+    margin: 10px;
+    margin-top: 62px;
+}
+
+.card-autor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 402px;
+    width: 363px;
+}
+
+.card-obra{
+    display: flex;
+    gap: 10px;
+    height: auto;
+}
+
+.obra-mas-conocida-del-autor{
+    width: 150px;
+    height: 235px;
+    margin-top: 41px;
+}
+
+.card-numeraciones{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.card-numeraciones ol{
+    padding: 0%;
+}
+
+
+
+footer {
+    color: white;
+    background-color: black;
+    padding-bottom: 10px;
+}
+
+.redes-sociales{
+    background-color: black;
+}
+
+.div-contenedor-de-redes-sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 130px;
+}
+
+.card-div-footer-textos{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-evenly
+}
+
+
+
+
+
+
+
+
+
+/* css del html "obras" */
+
+
+
+.grid-seccion-obras{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+    align-content: space-around;
+    justify-items: center;
+}
+
+.seccion-de-la-obra{
+    border: 2px solid #ffffff;
+    margin-top: 50px;
+    height: 426px;
+    width: 630px;
+}
+
+.argumento-de-la-obra---obras{
+    font-size: small;
+    text-align: justify;
+    margin: 10px 10px 10px 0px;
+    height: 60%;
+    width: auto;
+    overflow: hidden;
+}
+
+
+
+
+.rating {
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.rating label:before {
+    content: '\2605'; 
+}
+
+.rating input:checked ~ label:before {
+    content: '\2605'; 
+    color: gold; 
+}
+
+
+
+
+
+
+.card-container---obras{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    height: 395px;
+    background-color: rgb(18, 4, 20);
+}
+
+.card-img-autor---obras{
+    width: 243px;
+    height: 373px;
+    margin: 10px;
+}
+
+.card-contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 395px;
+    width: 368px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* css del html "tertulia" */
+
+
+
+.grid-seccion-tertulia{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-evenly;
+    align-content: space-around;
+    justify-items: center;
+}
+
+.seccion-de-la-reseña{
+    border: 2px solid #ffffff;
+    margin-top: 50px;
+    height: 351px;
+    width: 634px;
+}
+
+.nombre-titular---tertulia{
+    color: white;
+    text-align: center ;
+    margin: 0px;
+    border: 2px solid  #ffffff ;
+    background: rgb(27,38,105);
+    background: radial-gradient(circle, rgba(27,38,105,1) 0%, rgba(0,29,36,1) 64%);
+    font-size: 20px;
+}
+
+.card-container---tertulia{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    flex-direction: row;
+    height: 320px;
+    width: 630px;
+    background-color: rgb(18, 4, 20);
+}
+
+.card-img-obra-comentarista---tertulia{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-imgs-reseña---tertulia{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-img-obra---tertulia{
+    height: 110px;
+    width: 110px;
+}
+
+.card-img-comentarista---tertulia{
+    height: 200px;
+    width: 125px;
+}
+
+.card-img-likes---tertulia{
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.card-likes{
+    height: 66px;
+    width: 66px;
+}
+
+.card-comentarios{
+    padding-left: 25px;
+    height: 66px;
+    width: 66px;
+}
+
+.card-reseña---tertulia{
+    padding-right: 10px;
+    text-align: justify;
+    font-size: small;
+    height: 310px;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* css del html "registrarse" */
+
+
+.card-registro{
+    width: 700px;
+    height: 100%;
+    background: #2a292e;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.card-registro h1{
+    margin: auto;
+    font-size: 40px;
+    padding: 25px;
+    text-align: center;
+    color: #140c01;
+}
+
+.card-registro p {
+    text-align: center;
+    font-size: 20px;
+    color: #140c01;
+}
+
+.card-datos---registrarse {
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    margin: auto;
+}
+
+.card-datos---registrarse input {
+margin: 50px 0px 50px 0px ;
+}
+
+.card-controls{
+    font-size: 20px;
+    height: 40px;
+    border: 4px solid rgb(49, 46, 255);
+    border-radius: 15px;
+}
+
+.card-datos-final---registrarse{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-datos-final---registrarse .card-controls{
+    height: 18px;
+    width: 18px;
+    border-radius: 5px;
+}
+
+
+.card-datos-final---registrarse .boton {
+    width: 50%;
+    background: #e44a0d;
+    border: none;
+    padding: 15px;
+    color: white;
+    margin: 15px;
+    font-size: 15px;
+    border-radius: 100px;
+}
+
+.card-datos-final---registrarse a{
+    text-decoration: none;
+    color: #2957ba;
+}
+
+.card-datos-final---registrarse label{
+    text-align: center;
+    font-size: 20px;
+    color: #140c01;
+}
+
+.card-cuenta-registrada {
+    background: #fff;
+    width: 30%;
+}
+
+
+
+.form-label{
+    color: #140c01;
+}
+
+.form-text{
+    color: #140c01;
+}
+
+#exampleInputEmail1{
+    margin: 0%;
+}
+
+.introducion-al-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    text-align: justify;
+    margin: 50px 20px 0px 20px;
+    font-size: 20px;
+
+}
+
+/* css de las media query */
+
+
+
+
+
+@media (max-width: 576px){
+
+    .retrato {
+        margin: 0%;
+        border: 10px; 
+        padding-left: 40%;
+        padding-right: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .primerparrafo{
+        font-size: 20px;
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+
+    .card-texto-introductorio{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .card-links-header a{
+        font-size: 25px;
+        padding: 8px;
+    }
+
+    .card-registro{
+        width: 550px;
+    }
+
+    .card-div-footer-textos{
+        font-size: 12px;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+    .primerparrafo{
+        font-size: 20px;
+        text-align: justify;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+}
